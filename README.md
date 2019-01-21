@@ -236,7 +236,7 @@ result,_ = pet.FindPetsByStatus(status)
 
 ### <a name="find_pets_by_tags"></a>![Method: ](https://apidocs.io/img/method.png ".pet_pkg.FindPetsByTags") FindPetsByTags
 
-> Muliple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
+> Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
 
 
 ```go
@@ -287,7 +287,7 @@ func (me *PET_IMPL) GetPetById(petId int64)(*models_pkg.Pet,error)
 #### Example Usage
 
 ```go
-petId,_ := strconv.ParseInt("123", 10, 8)
+petId,_ := strconv.ParseInt("236", 10, 8)
 
 var result *models_pkg.Pet
 result,_ = pet.GetPetById(petId)
@@ -327,7 +327,7 @@ func (me *PET_IMPL) UpdatePetWithForm(
 #### Example Usage
 
 ```go
-petId,_ := strconv.ParseInt("123", 10, 8)
+petId,_ := strconv.ParseInt("236", 10, 8)
 name := "name"
 status := "status"
 
@@ -366,7 +366,7 @@ func (me *PET_IMPL) DeletePet(
 #### Example Usage
 
 ```go
-petId,_ := strconv.ParseInt("123", 10, 8)
+petId,_ := strconv.ParseInt("236", 10, 8)
 apiKey := "api_key"
 
 var result 
@@ -407,7 +407,7 @@ func (me *PET_IMPL) UploadFile(
 #### Example Usage
 
 ```go
-petId,_ := strconv.ParseInt("123", 10, 8)
+petId,_ := strconv.ParseInt("236", 10, 8)
 additionalMetadata := "additionalMetadata"
 file :=  []byte("")
 
@@ -501,7 +501,7 @@ func (me *STORE_IMPL) GetOrderById(orderId int64)(*models_pkg.Order,error)
 #### Example Usage
 
 ```go
-orderId,_ := strconv.ParseInt("123", 10, 8)
+orderId,_ := strconv.ParseInt("236", 10, 8)
 
 var result *models_pkg.Order
 result,_ = store.GetOrderById(orderId)
@@ -536,7 +536,7 @@ func (me *STORE_IMPL) DeleteOrder(orderId int64)(,error)
 #### Example Usage
 
 ```go
-orderId,_ := strconv.ParseInt("123", 10, 8)
+orderId,_ := strconv.ParseInt("236", 10, 8)
 
 var result 
 result,_ = store.DeleteOrder(orderId)

@@ -213,7 +213,7 @@ func (me *PET_IMPL) FindPetsByStatus (
 }
 
 /**
- * Muliple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
+ * Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
  * @param    []string        tags     parameter: Required
  * @return	Returns the []*models_pkg.Pet response from the API call
  */
